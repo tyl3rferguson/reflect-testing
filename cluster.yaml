@@ -2,11 +2,11 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
   name: s1-tyler
-  region: us-west-1
+  region: us-east-1
 availabilityZones:
-    - us-west-1a
+    - us-east-1a
 #    - us-west-1b
-    - us-west-1c
+    - us-east-1c
 #    - us-west-1d
 nodeGroups:
   - name: worker-group
